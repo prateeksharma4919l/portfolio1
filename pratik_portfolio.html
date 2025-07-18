@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pratik Sharma | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #2e2e2e, #1c1c1c);
+      color: white;
+      line-height: 1.6;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    header {
+      background: #111;
+      padding: 20px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #00e0ff;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #ddd;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #00e0ff;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .section-title {
+      font-size: 2rem;
+      color: #00e0ff;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .card {
+      background: #222;
+      padding: 20px;
+      border-radius: 15px;
+      margin-bottom: 30px;
+      box-shadow: 0 0 15px rgba(0, 224, 255, 0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    footer {
+      background: #111;
+      padding: 20px;
+      text-align: center;
+      color: #999;
+    }
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Pratik Sharma</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2 class="section-title">About Me</h2>
+    <div class="card">
+      <p>
+        Hello! I'm Pratik Sharma, a passionate web developer currently pursuing B.Tech in Computer Science (4th year). I specialize in frontend and backend development (Full Stack Developer) with strong knowledge of HTML, CSS, JavaScript, and backend technologies like Node.js, Express, and MongoDB.
+      </p>
+      <p>
+        I also have a strong grip on computer basics like Operating Systems, Networking, DBMS, and programming languages such as C, C++, and Python.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="card">
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>React.js, Node.js, Express.js</li>
+        <li>MongoDB, MySQL</li>
+        <li>Git & GitHub</li>
+        <li>Operating System, DBMS, Computer Networks</li>
+        <li>C, C++, Python</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="card">
+      <h3>Portfolio Website</h3>
+      <p>A responsive personal portfolio built using HTML, CSS, and JavaScript with animations and modern UI.</p>
+    </div>
+    <div class="card">
+      <h3>ToDo App</h3>
+      <p>A task manager web app using MERN stack (MongoDB, Express, React, Node).</p>
+    </div>
+    <div class="card">
+      <h3>Student Result System</h3>
+      <p>A backend-powered result portal using Node.js and MySQL.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 class="section-title">Contact</h2>
+    <div class="card">
+      <p>Email: prateekjhalawar@gmail.com</p>
+      <p>Phone: 8290055253</p>
+      <p>Alternate: 6376555874</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Pratik Sharma. All rights reserved.</p>
+  </footer>
+</body>
+</html>
